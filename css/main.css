@@ -1,0 +1,238 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+   header#js-header {
+    position: fixed;
+    top: 0;
+    -webkit-transform: translate3D(0, 0, 0);
+    -ms-transform: translate3D(0, 0, 0);
+    transform: translate3D(0, 0, 0);
+    z-index: 3;
+    background: #087e86;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(8, 126, 134);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.0980392);
+    line-height: 65px;
+    -webkit-transition: -webkit-transform .3s cubic-bezier(0.645, .045, .355, 1);
+    transition: transform .3s cubic-bezier(0.645, .045, .355, 1);
+   }
+
+.category-nav, .navbar{
+	width: 100%;
+    float: left;
+    padding: 0 22.4px;
+    padding: 0 1.4rem;
+    background-color: #fba91e;
+    overflow: hidden;	
+	}
+.header {
+    background-color: #087e86;
+	}
+	
+.navbar-inner{
+	text-align:center;
+	}
+
+
+
+nav{
+	max-height: 100em;
+	}
+
+#section-list{
+	max-width: 64em;
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 22.4px;
+    padding: 0 1.4rem;
+}
+
+#section-list a {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 44.8px;
+    line-height: 2.8rem;
+    color: #337ab7;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    min-height: 1px;
+}
+
+@media only screen and (min-width: 45em){
+#section-list a {
+    width: 33.3333%;
+    font-size: 10px;
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+}
+
+header a {
+    font-weight: 400;
+    font-style: normal;
+    color: #fcf5e3;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header__title {
+    text-align: center;
+    padding: 1.3em 0;
+    color: white;
+
+}
+
+a.btn-navbar{
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.category-nav__toggle:before {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/nycbar.svg);
+    background-image: url(../img/nycbar.svg),none;
+    background-repeat: no-repeat;
+    background-size: 80px 52px;
+    height: 60px;
+    background-position: 0;
+}
+
+.category-nav__toggle:before {
+    content: '';
+    width: 100px;
+    margin: 0 3.216px 0 0;
+    margin: 0 .201rem 0 0;
+}
+
+ul.tabs-content {
+    margin: 0;
+    display: block;
+}
+
+ul.tabs-content > li {
+    display: none;
+    list-style: none;
+}
+
+ul.tabs-content > li.active {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.list.list--links{
+    margin: 0 0 1.4rem;
+    list-style: none;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 45em){
+.list>li {
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+    padding: 0;
+    min-height: 1px;
+}
+}
+
+.type--emphasis, {
+    text-transform: uppercase;
+}
+
+.section {
+    width: 100%;
+    position: relative;
+    padding-top: 5em;
+}
+
+.section--extended {
+    height: 100vh;
+}
+
+.section__content--centered {
+    text-align: center;
+}
+
+.section--extended {
+    display: table;
+    padding: 67.2px 0;
+    padding: 4.2rem 0;
+    background: #fba91e;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.section--extended .section__content {
+    padding-top: 65px;
+    padding-top: 6.5rem;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.type--lrg{
+    line-height: 67.2px;
+    line-height: 4.2rem;
+    font-size: 67.344px;
+    font-size: 4.209rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+.footer{
+    background-color: #fba91e;
+    padding: 1.3em 0;
+}
+.subsection__list{
+    width: 32%;
+}
+
+/*.title-toggle:before{
+    display: block; 
+    content: " "; 
+    margin-top: -285px; 
+    height: 285px; 
+    visibility: hidden; 
+}*/
