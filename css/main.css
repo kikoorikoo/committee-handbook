@@ -159,7 +159,7 @@ ul.list.list--links{
     display: block;
 }
 ul{
-    list-style: none;
+    list-style: disc;
 }
 
 
